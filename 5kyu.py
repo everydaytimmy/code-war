@@ -17,7 +17,7 @@ def move_zeros(array):
     return new + zeros
 
 
-# Original attempt - Did not work I believe because of the way .remove works
+# Original attempt - Did not work I believe because of the way .remove() works
 
 # def move_zeros(array):
 #     zeros = []
