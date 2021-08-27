@@ -7,4 +7,11 @@
 def square_digits(num):
     return int(''.join(str(int(i)**2) for i in str(num)))
 
- 
+
+###------ Over The Road ------###
+
+#  You've just moved into a perfectly straight street with exactly n identical houses on either side of the road. Naturally, you would like to find out the house number of the people on the other side of the street. The street looks something like this:
+
+def over_the_road(address, n):
+    distance = (2*n) + 1
+    return distance - address
